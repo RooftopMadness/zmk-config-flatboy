@@ -1,0 +1,16 @@
+if SHIELD_CHIPPY_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Chippy"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_CHIPPY_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Chippy Right"
+	
+endif
