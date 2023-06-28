@@ -12,5 +12,8 @@ if SHIELD_CHIPPY_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "FlatBoye Right"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default n
 	
 endif
